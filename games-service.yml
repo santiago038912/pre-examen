@@ -1,13 +1,13 @@
 spring:  
   datasource:
     driverClassName: org.h2.Driver
-    url: jdbc:h2:mem:db/animals;DB_CLOSE_DELAY=-1
+    url: jdbc:h2:mem:db/games;DB_CLOSE_DELAY=-1
     username: sa
     password: sa
   
   sql:
     init:
-      dataLocations: classPath:/animals_service.sql  
+      dataLocations: classPath:/games_service.sql  
   
   
   jpa:
